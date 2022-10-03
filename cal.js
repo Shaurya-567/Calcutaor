@@ -3,7 +3,7 @@
 function click12(val){
 
   document.getElementById("screen").value +=val ;
-  console.log(val);
+  //console.log(val);
 }
 function answer()
 {
@@ -14,6 +14,7 @@ function answer()
 
 function clear12()
 {
+  console.log(document.getElementById("screen").value);
   document.getElementById("screen").value="";
 }
 
